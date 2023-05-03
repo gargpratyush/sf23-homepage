@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'RoasheRegular';
+    src: url('../../fonts/roashregular/roashe.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../../fonts/roashregular/roashe.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}  
+
+.loginOutDiv {
+    /* border: solid 2px red; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+}
+.loginHeader {
+    /* border: solid 2px blue; */
+    display: flex;
+    color: white;
+}
+.loginContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+.UpperBorderdiv {
+    /* border: solid 2px red; */
+    /* background-color: yellow; */
+    height: fit-content;
+}
+.LowerBorderdiv {
+    /* border: solid 2px red; */
+    /* background-color: yellow; */
+    height: fit-content;
+}
+.ILUFormdiv {
+    /* border: solid 2px green; */
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+.ILUdiv {
+    /* border: solid 2px blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+
+} 
+.Formdiv {
+    /* border: solid 2px blue; */
+    width: 50%;
+    font-family: 'RoasheRegular', serif;
+}
+
+.loginHeaderText {
+    width: 90%;
+    text-align: center;
+    font-family: 'RoasheRegular', serif;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-Left: 5%;
+}
+.closebtn {
+    width: 5%;
+    background: transparent;
+    /* border : solid 1px burlywood; */
+    color: white;
+    /* font-weight: bolder; */
+    font-size: 35px;
+    cursor: pointer;
+}
+.closebtn:hover{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px rgba(237, 234, 232, 0.4),
+    0 0 15px rgba(237, 234, 232, 0.4), 0 0 20px rgba(237, 234, 232, 0.4),
+    0 0 25px rgba(237, 234, 232, 0.4), 0 0 30px rgba(237, 234, 232, 0.4),
+    0 0 35px rgba(237, 234, 232, 0.4), 0 0 40px rgba(237, 234, 232, 0.4);
+}
+.lowdiv{
+    width: 100%;
+    /* border: solid 2px red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.googlebtn {
+    /* border: solid 0.1px white; */
+    background: transparent;
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 13px;
+    font-family: "glothic";
+    border-width: 0;
+    cursor: pointer;
+}
+
+.orLoginWith{
+    position: relative;
+    width:3vw;
+    height:fit-content
+}
+
+.orLoginWith p{
+    font-size: 24px;
+    font-family: 'cinzel';
+    position: absolute;
+    top: 25%;
+    margin-top: 30%;
+    top: 100%;
+}
+
+.btnGlow:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 01);
+    text-shadow: 0 0 10px rgba(237, 234, 232, 0.4),
+    0 0 15px rgba(237, 234, 232, 0.4), 0 0 20px rgba(237, 234, 232, 0.4),
+    0 0 25px rgba(237, 234, 232, 0.4), 0 0 30px rgba(237, 234, 232, 0.4),
+    0 0 35px rgba(237, 234, 232, 0.4), 0 0 40px rgba(237, 234, 232, 0.4);
+}
+
+.RegFormdiv{
+    overflow-y: scroll;
+    width:50%;
+    scrollbar-width: 0;
+}
+
+.form-control {
+    font-family: 'Poppins', serif;
+    /* font-weight: 600; */
+    /* letter-spacing: 0.3rem; */
+}
+
+.form-control input::placeholder {
+    font-family: 'Cinzel';
+    font-size: 1.1rem;
+}
+
+.form-control input {
+    border-radius: 0;
+}
+
+.form-control input:focus {
+    border-bottom: 0  0 1px;
+    outline: none;
+}
+
+.lowdiv button {
+    font-family: 'Cinzel';
+}
+
+input::focus {
+    background-color: yellow;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}

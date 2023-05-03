@@ -1,0 +1,625 @@
+@font-face {
+    font-family: 'RoasheRegular';
+    src: url('../../fonts/roashregular/roashe.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../../fonts/roashregular/roashe.ttf') format('truetype'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+} 
+
+
+.landingTwo{
+    /* background-color: rgba(68, 68, 34, 1); */
+    /* background-image: linear-gradient(to right,rgb(68, 68, 34),rgb(68, 68, 34), transparent, rgb(68, 68, 34),rgb(68, 68, 34)); */
+    background-image: radial-gradient(transparent,rgb(68, 68, 34),rgb(68, 68, 34));
+    height: 100vh;
+    width: 100vw;
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+}
+.logos{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 0.6rem;
+    padding-left: 0.6rem;
+    width: max-content;
+}
+.logos:hover{
+	cursor: pointer;
+}
+.loginbtn{
+    position: fixed;
+    top: 2.5%;
+    right: 1%;
+}
+.schedulebtn{
+    position: fixed;
+    bottom: 5.3%;
+    right: 2.5%;
+}
+/* .btnCustom{
+    cursor: pointer;
+    width: max-content;
+    font-size: 1.7rem;
+    color: #eb8;
+    font-family: "centurygothic";
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    letter-spacing: 0.1rem;
+    transition: all 0.2s ease;
+    animation: fadein 1s ease;
+}
+
+.btnCustom:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px rgba(237, 234, 232, 0.4),
+    0 0 15px rgba(237, 234, 232, 0.4), 0 0 20px rgba(237, 234, 232, 0.4),
+    0 0 25px rgba(237, 234, 232, 0.4), 0 0 30px rgba(237, 234, 232, 0.4),
+    0 0 35px rgba(237, 234, 232, 0.4), 0 0 40px rgba(237, 234, 232, 0.4);
+} */
+
+.btnCustom1{
+    cursor: pointer;
+    width: max-content;
+    font-size: 1.7rem;
+    color: #eb8;
+    font-family: 'RoasheRegular', serif;
+    font-weight: 600;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    letter-spacing: 0.8rem;
+    transition: all 0.2s ease;
+    animation: fadein 1s ease;
+    text-decoration: none;
+}
+
+.btnCustom1:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px rgba(237, 234, 232, 0.4),
+    0 0 15px rgba(237, 234, 232, 0.4), 0 0 20px rgba(237, 234, 232, 0.4),
+    0 0 25px rgba(237, 234, 232, 0.4), 0 0 30px rgba(237, 234, 232, 0.4),
+    0 0 35px rgba(237, 234, 232, 0.4), 0 0 40px rgba(237, 234, 232, 0.4);
+}
+
+.rectangle_1Parent{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+
+.rectangle_2Parent{
+    margin-top: -5vh;
+    position: relative;
+}
+.rectParentDIV{
+    display: flex;
+    flex-direction: column;
+}
+
+.rectangle_1Parent_img{
+    position: relative;
+    width: 82vw;
+    height: 12vh;
+    top: -20%;
+}
+.rectangle_2Parent_img{
+    position: relative;
+    /* z-index: 1; */
+    width: 80.5vw;
+    height: 79vh;
+}
+@media only screen and (min-width:800px ) and (max-width:990px){
+    .rectangle_2Parent_img{
+        height: 78vh;
+    }
+    .horizontalLINE1_long_div img{
+        top: 63vh!important;
+        left: 2vw!important;
+    }
+}
+@media only screen and (min-width:1000px ) and (max-width:1225px){
+    .rectangle_2Parent_img{
+        height: 83vh;
+    }
+    .horizontalLINE1_long_div img{
+        left: 1vw!important;
+    }
+}
+@media only screen and (min-width:1225px){
+    .rectangle_2Parent_img{
+        height: 82vh;
+    }
+    .horizontalLINE1_long_div img{
+        
+        left: 1vw!important;
+    }
+}
+
+.rect1_links{
+    display: flex;
+    flex-direction: row;
+    top: 2.0vh;
+    /* left: 35vw; */
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-family: 'RoasheRegular';
+}
+.rect1_links_separator{
+    height: 3.6vh;
+    transform: translateY(20%);
+    margin-right: 2.2vw;
+    margin-left: 2.2vw;
+}
+.rect1_linksbtn{
+    justify-content: center;
+    letter-spacing: 0.1rem;
+}
+.rect2content{
+    position: absolute;
+    left: 16vw;
+    top: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.horizontalLINE_long_div img{
+    /* z-index: 2; */
+    height: 10vh;
+    width: 80vw;
+    position: absolute;
+    top: 0vh;
+    left: 8vw;
+}
+
+.horizontalLINE1_long_div img{
+    /* z-index: 2; */
+    position: absolute;
+    height: 10vh;
+    width: 80vw;
+    top: 68vh;
+    left: 8vw;
+}
+
+
+.accoms_image_ring{
+    height: 15vw;
+    width: 15vw;
+    /* z-index: 60; */
+    position: absolute;
+    top: 6.3%;
+    left: 16.8%;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+}
+
+.accoms_image_accoms{
+    width: 10.3vw;
+    height: 9vw;
+    cursor: pointer;
+    /* z-index: 50; */
+    top: 16.3%;
+    left: 19.3%;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+    position: absolute;
+}
+
+.accoms_under{
+    width:10vw;
+    margin-top: -5%;
+}
+
+.accoms_text{
+    position: relative;
+    /* top: 17.3vw; */
+    /* left: 17.7vw; */
+}
+
+.game_under{
+    width:10vw;
+}
+
+.game_image_ring{
+    height: 15vw;
+    width: 15vw;
+    /* z-index: 60; */
+    position: absolute;
+    top: 31.3%;
+    left: 34.4%;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+}
+
+.game_image_game{
+    width: 5.4vw;
+    height: 9vw;
+    cursor: pointer;
+    /* z-index: 50; */
+    top: 39.3%;
+    left: 38.9%;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.8s ease-in-out;
+    position: absolute;
+}
+
+.game_section{
+    margin-right:'20px'
+}
+
+.game_text{
+    position: absolute;
+    top: 27.3vw;
+    left: 34.9vw;
+}
+
+.merch_image_ring{
+    height: 15vw;
+    width: 15vw;
+    /* z-index: 60; */
+    position: absolute;
+    top: 6.3%;
+    left: 50.4%;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+}
+
+.merch_image_merch{
+    width: 7.2vw;
+    height: 9vw;
+    cursor: pointer;
+    /* z-index: 50; */
+    top: 14.5%;
+    left: 54.4%;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+    position: absolute;
+}
+
+.merch_text{
+    position: absolute;
+    top: 18.3vw;
+    left: 53.2vw;
+}
+.merch_under{
+    width: 10vw;
+}
+
+.tour_image_ring{
+    height: 15vw;
+    width: 15vw;
+    /* z-index: 60; */
+    position: absolute;
+    top: 31.3%;
+    left: 68.4%;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+}
+
+.tour_image_tour{
+    width: 10.2vw;
+    height:9vw;
+    cursor: pointer;
+    /* z-index: 50; */
+    top: 39.7%;
+    left: 71%;
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+    position: absolute;
+}
+
+.tour_text{
+    position: absolute;
+    top: 28.0vw;
+    left: 71.3vw;
+}
+.tour_under{
+    width: 10vw;
+}
+
+.tour_image:hover .tour_image_ring{
+    transform: rotate(90deg)    
+}
+
+.accoms_image:hover .accoms_image_ring{
+    transform: rotate(90deg)    
+}
+
+.game_image:hover .game_image_ring{
+    transform: rotate(90deg)    
+}
+
+.merch_image:hover .merch_image_ring{
+    transform: rotate(90deg)    
+}
+
+.horizontalLINE_long_div {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+.landingrow{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:5vh;
+    left:8vw;
+    height:80vh;
+    width:80vw;
+}
+.Landingrow_C{
+    display: flex;
+    flex-direction: row;
+}
+.social_icon_P{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    cursor: pointer;
+    margin-top: 1.2vh;
+    margin-top: -0rem;
+}
+.social_icon_P div{
+    margin-right: 7px;
+    margin-bottom: -4vh;
+}
+.social_icon_P div:hover{
+    cursor: pointer;
+    filter: brightness(120%);
+}
+#facebook_icon_div{
+   transform: translate(18%, -10%);
+}
+#youtube_icon_div{
+    transform: translateY(-7%);
+}
+@media only screen and (max-width:1000px){
+    
+    .social_icon_P{
+        
+        margin-top: 5vh;
+    }
+}
+@media only screen and (max-width:1100px){
+    
+    
+    .social_icon_P{
+        
+        margin-top: 4vh;
+    }
+}
+@media only screen and (min-width:1225px){
+    .rectangle_2Parent_img{
+        height: 86vh;
+    }
+    .horizontalLINE1_long_div img{
+        top: 71vh;
+    }
+    .social_icon_P{
+        margin-bottom: -1vh;
+        margin-top: 2vh;
+    }
+}
+@media only screen and (min-width:1360px){
+    .rectangle_2Parent_img{
+        height: 88vh;
+    }
+    .horizontalLINE1_long_div img{
+        top: 72vh;
+    }
+    .social_icon_P{
+        margin-bottom: -1vh;
+        margin-top: 2vh;
+    }
+}
+@media only screen and (min-width:1460px){
+    .rectangle_2Parent_img{
+        height: 89vh;
+    }
+    .horizontalLINE1_long_div img{
+        top: 74vh;
+    }
+    .social_icon_P{
+        margin-top: 0vh;
+        margin-bottom: -1vh;
+    }
+    
+}
+.accoms_new_section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vw;
+    row-gap: 0vh;
+    margin-top:3vh;
+}
+
+.accoms_new_image{
+    position:relative;
+    height: 15vw;
+    width: 15vw;
+}
+
+.accoms_new_image_ring{
+    height: 15vw;
+    width: 15vw;
+    /* z-index: 60; */
+    /* position: absolute;
+    top: 6.3%;
+    left: 16.8%; */
+    position: absolute;
+    cursor: pointer;
+    top:0;
+    left:0;
+    transition: transform 0.8s ease-in-out;
+}
+.accoms_new_image_ring:hover{
+    transform: rotate(90deg);  
+}
+
+.accoms_new_image_accoms{
+    width: 10.3vw;
+    height: 9vw;
+    cursor: pointer;
+    /* z-index: 50; */
+    cursor: pointer;
+    position: absolute;
+    top:3.7vw;
+    left:2.5vw;
+    transition: transform 0.8s ease-in-out;
+}
+
+.accoms_new_under{
+    width:10vw;
+    margin-top: -5%;
+}
+
+.accoms_new_text{
+    /* position: absolute;
+    top: 17.3vw;
+    left: 17.7vw; */
+    margin-left: 2vw;
+}
+
+.game_new_image_game{
+    width: 5.4vw;
+    height: 9vw;
+    cursor: pointer;
+    /* z-index: 50; */
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.8s ease-in-out;
+    position: absolute;
+    top:2.7vw;
+    left:5vw;
+}
+.game_new_text{
+    margin-left: 0vw;
+}
+
+.game_new_section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+    margin-top: 18vh;
+    position: relative;
+    /* margin-top:1vh; */
+}
+
+.merch_new_section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4vw;
+    position: relative;
+    margin-top: 3vh;
+}
+
+.merch_new_image_merch{
+    width: 7.2vw;
+    height: 9vw;
+    cursor: pointer;
+    /* z-index: 50; */
+    cursor: pointer;
+    transition: transform 0.8s ease-in-out;
+    position: absolute;
+    top:3vw;
+    left:4vw;
+}
+
+.merch_new_text{
+    margin-left: 0vw;
+}
+
+.tour_new_image_tour{
+    width: 10.2vw;
+    height:9vw;
+    cursor: pointer;
+    /* z-index: 50; */
+    cursor: pointer;
+    position: absolute;
+    top:3.8vw;
+    left:2.5vw;
+    transition: transform 0.8s ease-in-out;
+}
+
+/* .tour_new_image_tour:hover{
+    transform: scale(1.1);
+} */
+
+.landingrow a{
+    text-decoration: none;
+    height: fit-content;
+}
+
+.accoms_new_image:hover .accoms_new_image_ring{
+    transform: rotate(90deg)  ;   
+}
+.FAQsParent_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+}
+.headingFAQ{
+    font-family: 'RoasheRegular';
+    font-size: 2rem;
+    margin-bottom: -1.7rem;
+    color: #eb8;
+}
+.horizontalLINE_img_div img{
+    width: 70vw;
+}
+.contentFAQ_parent{
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.contentFAQS{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.questionFAQS{
+    margin-bottom: 0.27rem;
+    font-family: 'Cenzil';
+    font-size: 1.3rem;
+    color: rgb(250, 225, 193);
+    font-weight: lighter;
+}
+.answersFAQS{
+    font-size: 1rem;
+    font-family: 'Cenzil';
+    font-weight: lighter;
+}
+
+.privacy_link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.privacy-policy-div a {
+    font-size: 12px;
+}
+
+.privacy_link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.privacy_link:hover{
+    cursor: pointer;
+    color: rgb(250, 225, 193);
+}
